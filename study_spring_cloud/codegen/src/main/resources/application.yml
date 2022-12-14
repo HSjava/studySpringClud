@@ -1,0 +1,12 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8070
+
+# 应用名称
+spring:
+  application:
+    name: study-codegen
+
+mybatis:
+  type-aliases-package: 'com.study.mybatis.entity'  # entity扫描的包名
+  mapper-locations: 'classpath*:mapper/*Mapper.xml,classpath*:mapper/*Mapper.xml' # Mapper.xml所在的位置
